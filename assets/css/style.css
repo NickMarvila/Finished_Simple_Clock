@@ -7,8 +7,8 @@
 }
 
 body{
-  height: 100vh;
-  background: linear-gradient(120deg, #FFD700, #C71585);
+  height: 110vh;
+  background: linear-gradient(120deg, #24aff0, #C71585);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@ body{
   height: 200px;
   width: 550px;
   background: transparent;
-  border-radius: 3px;
+  border-radius: 20px;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -35,7 +35,7 @@ body{
   color: #fff;
   background: rgba(5, 5, 5, 0.9);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
-  border-radius: 7px;
+  border-radius: 100px;
   letter-spacing: 3px;
 }
 
@@ -46,4 +46,18 @@ body{
 
 .clock span.time {
   font-size: 10px;
+}
+
+#title {
+  position: absolute;
+  top:  20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(5, 5, 5, 0.9);
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+  letter-spacing: 6px;
+  font-weight: bold;
+  font-size: 40px;
 }
